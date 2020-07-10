@@ -1,0 +1,13 @@
+
+server:
+  port: 6666
+spring:
+  activemq:
+    broker-url:
+    user:
+    password:
+  jms:
+    pub-sub-domain: false
+
+#自己定义对流名称
+myTopic: boot-active-topic
